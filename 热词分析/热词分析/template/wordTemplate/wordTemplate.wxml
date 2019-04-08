@@ -1,0 +1,10 @@
+<template name="wordTemplate">
+  <view class="out-view" bindtap="goToInfo" data-name="{{name}}">
+    <view class="title-view">
+      <text class="title-text">{{name}}</text>
+    </view>
+    <view class="content-view">
+      <text class="content-txt">{{information}}</text>
+    </view>
+  </view>
+</template>

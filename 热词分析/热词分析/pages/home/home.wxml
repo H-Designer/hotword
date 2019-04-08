@@ -1,0 +1,27 @@
+<import src="../../template/wordTemplate/wordTemplate.wxml" />
+<view class='page-view'>
+  <view class="page-row">
+    <view class="search">
+      <view class="search-arr">
+        <icon class="search-icon" size="20" type="search"></icon>
+        <input class="" bindinput='nameInput' placeholder="请输入关键字" value="{{searchValue}}"></input>
+      </view>
+    </view>
+    <view class="sousuo" bindtap='searchone'>搜索</view>
+  </view>
+  <view class='allInfo-view'>
+    <view class='classification-view'>
+      <view class='item-view' bindtap='jumpTo' data-idx="{{index}}" wx:for="{{types}}" item="item">{{item}}</view>
+    </view>
+  </view>
+  <view class='specific-view'>
+    <scroll-view scroll-into-view="{{toView}}" scroll-y="true" scroll-top="100" animation="true" class='scr'>
+      <view wx:for="{{types}}" wx:for-item="i"  id="{{'id-'+index}}">
+        <view>{{i}}</view>
+        <block class='allData-view' wx:for="{{allData}}" wx:for-item="j">
+          <template is="wordTemplate" wx:if="{{j.type=='（'+i+'）'}}" data="{{...j}}"></template>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>

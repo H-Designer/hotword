@@ -1,0 +1,4 @@
+<import src="../../template/wordTemplate/wordTemplate.wxml" />
+<block wx:for="{{info}}" item="item">
+  <template is="wordTemplate" data="{{...item}}"></template>
+</block>

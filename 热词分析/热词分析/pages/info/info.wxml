@@ -1,0 +1,27 @@
+<view>
+  <view class="title-view">
+    <text>{{fullInfo.name}}</text>
+  </view>
+  <view class="content-view-out">
+    <text class="content-text">{{fullInfo.name+fullInfo.type}}</text>
+    <view class="content-view" wx:for="{{oneInfo}}" item="item">
+      <text>{{item}}</text>
+    </view>
+  </view>
+  <view class="artile-view" bindtap="goToNews" data-url="{{fullInfo.webadd}}">
+    <text>选自文章：</text>
+    <text>{{fullInfo.title}}</text>
+    <view>{{fullInfo.webadd}}</view>
+  </view>
+  <view class="news-view" bindtap="goToNews" data-url="{{fullInfo.newsadd}}">
+    <text>最新新闻：</text>
+    <text>{{fullInfo.news}}</text>
+    <view>{{fullInfo.newsadd}}</view>
+  </view>
+  <view class="guess-like">
+    <text>猜你喜欢：</text>
+    <view class="guessLike-content-view">
+      <text class="guessLike-content-text" bindtap="guess" data-name="{{item.name}}" wx:for="{{guessLike}}" item="item">{{item.name}}</text>
+    </view>
+  </view>
+</view>

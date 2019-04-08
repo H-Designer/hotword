@@ -1,0 +1,43 @@
+.tagBall{
+      width: 420rpx;
+      height: 300rpx;
+      margin:300rpx auto;
+      position: relative;
+      left: 120rpx;
+  }
+  .tag{
+      display: block;
+      position: absolute;
+      left: 0rpx;
+      top: 0rpx;
+      color: #000;
+      text-decoration: none;
+      font-size: 32rpx;
+      font-family: "微软雅黑";
+      font-weight: bold;
+  }
+  .tag:hover{border:1px solid #666;}
+  .download{
+    width: 70px;
+    height: 28px;
+    margin: -100px auto;
+    border-radius: 2px;
+    background-color: #1E9FFF;
+    color: white;
+    padding: 10px 10px 10px 10px;
+  }
+  .buttonBox{
+    margin-top: -100px;
+  }
+  .button {
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

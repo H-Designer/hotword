@@ -1,0 +1,71 @@
+@import "../../template/wordTemplate/wordTemplate.wxss";
+.search{
+  width: 80%
+}
+.search-arr{
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.search-arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.sousuo{
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+}
+.page-row{
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  /*bottom: 30rpx;*/
+  padding: 10rpx;
+  display: flex;
+  flex-direction: row;
+}
+.search-icon{
+  margin: 10rpx;
+  position: absolute;
+  left: 25rpx;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.img{
+  width: 60rpx;
+  height: 60rpx;
+}
+.allInfo-view{
+  padding-top: 90rpx;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+.specific-view{
+  width: 70%;
+  padding: 10rpx;
+  padding-left: 200rpx;
+  background-color: white;
+}
+.classification-view{
+  position: fixed;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+.item-view{
+  background-color: transparent;
+  padding: 10px;
+}
+.allData-view{
+  padding-left: 30rpx;
+}
+.scr{
+  height: 409px;
+}

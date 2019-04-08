@@ -1,0 +1,48 @@
+.title-view{
+  background: linear-gradient(#1785f4,#aad0f7);
+  height: 6rem;
+  padding: 10px;
+}
+.title-view text{
+  font-size: 40px;
+  color: blue;
+  font-weight: 500;
+}
+.content-view-out{
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+}
+.content-text{
+  font-size: 24px;
+}
+.content-view{
+  font-size: 14px;
+  text-indent: 2rem;
+}
+.artile-view{
+  background-color: white;
+  margin-top: 10rpx;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+.news-view{
+  background-color: white;
+  margin-top: 10rpx;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+.guess-like{
+  padding: 0.5rem;
+  background-color: white;
+  margin-top: 10rpx;
+}
+.guessLike-content-view{
+    display: flex;
+    flex-direction: row;
+}
+.guessLike-content-text{
+  margin-left: 10px;
+  color: blue;
+  text-decoration: underline;
+}

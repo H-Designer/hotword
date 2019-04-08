@@ -1,0 +1,8 @@
+<view class="tagBall">
+  <a class="tag" wx:for="{{tagEle}}" wx:key="{{index}}" style="opacity:{{item.o}};z-index:{{item.z}};left: {{item.x}}rpx;top: {{item.y}}rpx;transform: scale({{item.s}})">
+    {{item.title}}
+  </a>
+ </view>
+ <view class='buttonBox' style='text-align:center;'>
+  <button bindtap='previewFile' data-url='http://localhost:8080/Info/Words.docx' class='button' style='#008CBA'>生成报告文档</button>
+</view>

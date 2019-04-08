@@ -1,0 +1,40 @@
+{
+  "pages":[
+    
+    "pages/home/home",
+    "pages/info/info",
+    "pages/list/list",
+    "pages/index/index",
+    "pages/logs/logs",
+    "template/wordTemplate/wordTemplate",
+    "pages/news/news",
+    "pages/pic/pic",
+    "pages/kong/tu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#99ffff",
+    "navigationBarTitleText": "信息热词",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "backgroundColor": "black",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页"
+      },
+      {
+        "pagePath": "pages/pic/pic",
+        "text": "云图"
+      },
+      {
+        "pagePath": "pages/kong/tu",
+        "text": "关于"
+      }
+    ]
+  }
+}
